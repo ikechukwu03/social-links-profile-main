@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Figtree:wght@600;800&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Inter:wght@400;600;700&family=Outfit:wght@400;800&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+  background-color:#141414;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin-top: 100px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Figtree', sans-serif;
+  font-family: 'Fraunces', serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.container{
+  height: 550px;
+  width: 320px;
+  background-color: #1F1F1F;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.words{
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+}
+.words h1{
+  color: hsl(0, 0%, 100%);
+}
+.words p{
+  line-height: 20px;
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 24px;
+}
+.words span{
+  color: hsl(0, 0%, 100%);
+}
+
+.gitHub-layer{
+  margin-top: 15px;
+  color: hsl(0, 0%, 100%); 
+  padding: 15px 110px;
+  background-color: #333333;
+  border-radius: 6px;
+}
+.gitHub-layer:hover{
+background-color: hsl(75, 94%, 57%);
+color: #141414;
+cursor: pointer;
+}
+
+.frontend-mentor-layer{
+  color: hsl(0, 0%, 100%); 
+  margin-top: 10px;
+  padding: 15px 75px;
+  background-color: #333333;
+  border-radius: 6px;
+}
+.frontend-mentor-layer:hover{
+  background-color: hsl(75, 94%, 57%);
+  color: #141414;
+  cursor: pointer;
+}
+
+.linkedIn-layer{
+  color: hsl(0, 0%, 100%); 
+  margin-top: 10px;
+  padding: 15px 105px;
+  background-color: #333333;
+  border-radius: 6px;
+}
+.linkedIn-layer:hover{
+  background-color: hsl(75, 94%, 57%);
+  color: #141414;
+  cursor: pointer;
+}
+
+.twitter-layer{
+  color: hsl(0, 0%, 100%); 
+  margin-top: 10px;
+  padding: 15px 110px;
+  background-color: #333333;
+  border-radius: 6px;
+}
+.twitter-layer:hover{
+  background-color: hsl(75, 94%, 57%);
+  color: #141414;
+  cursor: pointer;
+}
+
+.instagram-layer{
+  color: hsl(0, 0%, 100%); 
+  margin-top: 10px;
+  padding: 15px 100px;
+  background-color: #333333;
+  border-radius: 6px;
+}
+.instagram-layer:hover{
+  background-color: hsl(75, 94%, 57%);
+  color: #141414;
+  cursor: pointer;
+}
+
+footer{
+  margin: 20px;
+  color: hsl(0, 0%, 100%);
+}
+footer span{
+  cursor: pointer;
+  color: aqua;
+}
+
+
+
