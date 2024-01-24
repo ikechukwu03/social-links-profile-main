@@ -129,9 +129,8 @@ footer{
   margin: 20px;
   color: hsl(0, 0%, 100%);
 }
-footer span{
-  cursor: pointer;
-  color: aqua;
+footer a{
+  text-decoration: none;
 }
 
 
